@@ -1,0 +1,53 @@
+body{
+    background-image: url(paodequeijo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+@font-face {
+    font-family: 'vcr_osd_monoregular';
+    src: url('./font/vcr_osd_mono_1.001-webfont.woff2') format('woff2'),
+         url('./font/vcr_osd_mono_1.001-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+main{
+    display: grid;
+    justify-items: center;
+}
+#terminal {
+    display: flex;
+    text-align: center;
+    height: 50px;
+    width: 50%;
+    border: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: black;
+    font-family: 'vcr_osd_monoregular';
+    background-color: #008F11;
+}
+#teclado {
+    display: inline-grid;
+    row-gap: 5px;
+    column-gap: 5px;
+    grid-template-columns: auto auto auto;
+    height: 500px;
+    width: 400px;
+    background-color: black;
+    border: 5px grey;
+    border-radius: 10px;
+    border-style: solid;
+    margin-top: 10px;
+    padding: 10px;
+}
+.num {
+    background-color: black;
+    color: white;
+    box-shadow: 5px white;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    hover
+}
