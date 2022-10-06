@@ -1,7 +1,5 @@
 body{
-    background-image: url(paodequeijo.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: #ecf2f7;
     
 }
 @font-face {
@@ -23,31 +21,43 @@ main{
     width: 50%;
     border: 2px;
     border-style: solid;
-    border-radius: 10px;
     border-color: black;
     font-family: 'vcr_osd_monoregular';
-    background-color: #008F11;
+    background: rgb(107,120,103);
+    background: linear-gradient(90deg, rgba(107,120,103,1) 0%, rgba(164,179,160,1) 51%, rgba(107,120,103,1) 100%);
 }
 #teclado {
-    display: inline-grid;
-    row-gap: 5px;
-    column-gap: 5px;
-    grid-template-columns: auto auto auto;
-    height: 500px;
+    height: 400px;
     width: 400px;
-    background-color: black;
-    border: 5px grey;
-    border-radius: 10px;
+    background-color: #e0e4e7;
     border-style: solid;
     margin-top: 10px;
     padding: 10px;
 }
-.num {
-    background-color: black;
-    color: white;
-    box-shadow: 5px white;
+button {
+    background-color: #262a30;
+    color: #f5fffe;
+    border-radius: 5px;
     padding: 20px;
     text-align: center;
     font-size: 30px;
-    hover
+}
+button:active {
+    transform: translateY(5px);
+}
+#btnconfirma {
+    background-color: #7cda86;
+    font-size: 24px;
+}
+#btncorrige{
+    background-color: #fe5f00;
+    font-size: 24px;
+    padding: 30px;
+}
+.btns {
+    display: flex;
+    column-gap: 15px;
+    margin: 10px;
+    row-gap: 15px;
+    justify-content: center;
 }

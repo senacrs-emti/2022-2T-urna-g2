@@ -11,17 +11,26 @@
     <main>
         <input type="text" id="terminal">
         <section id="teclado">
-            <div class="num">
-                1</div>
-            <div class="num">2</div>
-            <div class="num">3</div>
-            <div class="num">4</div>
-            <div class="num">5</div>
-            <div class="num">6</div>
-            <div class="num">7</div>
-            <div class="num">8</div>
-            <div class="num">9</div>
-            <div class="num">0</div>
+            <div class="btns">
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+            </div>
+            <div class="btns">
+                <button>4</button>
+                <button>5</button>
+                <button>6</button>
+            </div>
+            <div class="btns">
+                <button>7</button>
+                <button>8</button>
+                <button>9</button>
+            </div>
+            <div class="btns">
+                <button id="btncorrige">Corrige</button>
+                <button>0</button>
+                <button id="btnconfirma">Confirma</button>
+            </div>
         </section>
     </main>
 </body>
